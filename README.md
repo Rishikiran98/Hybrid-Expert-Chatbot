@@ -66,7 +66,7 @@ In a world flooded with career options and evolving job roles, individuals—esp
 
 ## 🧱 System Architecture
 
-+------------------+ +-------------------+ +-------------------+ | User Interface | ---> | Rule-Based Engine| ---> | ML Prediction | +------------------+ +-------------------+ +-------------------+ | | | | +--------------------+ | | | | | <---------Explanation Engine-----------+ | | | +-------------> Logs (CSV) for Feedback & Retraining +
+| User Interface | ---> | Rule-Based Engine| ---> | ML Prediction | ---> | <---------Explanation Engine-----------+ | ---> | +-------------> Logs (CSV) for Feedback & Retraining +
 
 markdown
 Copy
