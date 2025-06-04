@@ -68,9 +68,6 @@ In a world flooded with career options and evolving job roles, individuals—esp
 
 | User Interface | ---> | Rule-Based Engine| ---> | ML Prediction | ---> | <---------Explanation Engine-----------+ | ---> | +-------------> Logs (CSV) for Feedback & Retraining +
 
-markdown
-Copy
-Edit
 
 - The chatbot first evaluates inputs using rule-based logic.
 - The result is cross-verified or enhanced using a pre-trained ML model.
@@ -97,21 +94,15 @@ cd Hybrid-Expert-Chatbot
 Install the dependencies:
 
 bash
-Copy
-Edit
 pip install -r requirements.txt
 Run the chatbot:
 
 bash
-Copy
-Edit
 python expert_systems_project.py
 Interact and explore career recommendations.
 
 📂 Project Structure
 bash
-Copy
-Edit
 Hybrid-Expert-Chatbot/
 ├── expert_systems_project.py   # Main application script (chatbot interface)
 ├── hybrid_model.pkl            # Trained ML model for career prediction
